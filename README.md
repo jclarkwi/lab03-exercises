@@ -1,5 +1,6 @@
 # Lab 03: Git and GitHub
-
+This repository documents my practice with
+local Git, GitHub, branches, and pull requests.
 ## README Responses
 
 ### 1.1 After initialization
@@ -24,15 +25,72 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 ### 1.3 After the first commit
-
+```text
+git status
+On branch main
+nothing to commit, working tree clean
+```
 ### 1.4 git log
-
+```text
+git log --oneline
+56f581c (HEAD -> main) Create lab README
+```
 ### 1.5 git diff
 
 Paste the `git status` and `git diff` commands and their output.
+```text
+git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+git diff
+diff --git a/README.md b/README.md
+index b0c0248..1e2f65c 100644
+index b0c0248..1e2f65c 100644
+index b0c0248..1e2f65c 100644
+diff --git a/README.md b/README.md
+index b0c0248..1e2f65c 100644
+diff --git a/README.md b/README.md
+index b0c0248..1e2f65c 100644
+diff --git a/README.md b/README.md
+index b0c0248..1e2f65c 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,6 @@
+ # Lab 03: Git and GitHub
+-
++This repository documents my practice with
++local Git, GitHub, branches, and pull requests.
+ ## README Responses
+
+ ### 1.1 After initialization
+@@ -24,9 +25,16 @@ Untracked files:
+ nothing added to commit but untracked files present (use "git add" to track)
+ ```
+ ### 1.3 After the first commit
+-
++```text
++git status
++On branch main
++nothing to commit, working tree clean
++```
+ ### 1.4 git log
+-
++```text
++git log --oneline
++56f581c (HEAD -> main) Create lab README
++```
+ ### 1.5 git diff
 
 How does this `git status` differ from the one in **1.2**?
-
+```text
+This git status shows uncommitted changes. 1.2 shows that there is nothing to commit.
+```
 ### 1.6 Git command reflections
 
 In one or two sentences each, what does each command do?
