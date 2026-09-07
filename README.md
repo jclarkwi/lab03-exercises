@@ -100,7 +100,7 @@ In one or two sentences each, what does each command do?
 - `git add`: Stages specified files to be committed.
 - `git commit`: Saves a snapshot of all stages files when the commit is issued.
 - `git log`: Shows commit history.
-- `git diff`: Shows a lot of information including file contents.
+- `git diff`: Compairs branches.
 
 ### 1.7 Repository link
 https://github.com/jclarkwi/lab03-exercises
@@ -121,6 +121,6 @@ In your own words:
 
 In your own words, what does each GitHub merge option do?
 
-- Create a merge commit
-- Squash and merge
-- Rebase and merge
+- Create a merge commit: All commits from this branch will be added to the base branch via a merge commit.
+- Squash and merge: The 1 commit from this branch will be added to the base branch.
+- Rebase and merge: The 1 commit from this branch will be rebased and added to the base branch.
