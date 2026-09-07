@@ -95,12 +95,12 @@ This git status shows uncommitted changes. 1.2 shows that there is nothing to co
 
 In one or two sentences each, what does each command do?
 
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
-- `git log`
-- `git diff`
+- `git init`: Reinitializes git repository.
+- `git status`: Displays the files in the current directory that have not been committed, includes file edits.
+- `git add`: Stages specified files to be committed.
+- `git commit`: Saves a snapshot of all stages files when the commit is issued.
+- `git log`: Shows commit history.
+- `git diff`: Shows a lot of information including file contents.
 
 ### 1.7 Repository link
 
