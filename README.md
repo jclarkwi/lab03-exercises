@@ -103,6 +103,7 @@ In one or two sentences each, what does each command do?
 - `git diff`: Shows a lot of information including file contents.
 
 ### 1.7 Repository link
+https://github.com/jclarkwi/lab03-exercises
 
 ### 1.8 Comparing approaches
 
