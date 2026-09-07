@@ -110,8 +110,12 @@ https://github.com/jclarkwi/lab03-exercises
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+	The nested-loop approach uses loops to compare values.
 - How does the set-based approach check for a duplicate?
+	The set-based approach uses a set to remember values. It compares the size of the set to the size of the
+	input list.
 - What is the runtime and memory trade-of of each?
+	I don't know how to calculate runtime efficiency.
 
 ### 1.9 Pull request merge options
 
